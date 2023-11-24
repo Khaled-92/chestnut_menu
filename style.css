@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'chestnut';
+    src: url('./MyriadVariableConcept-Roman.otf');
+    font-style: bold;
+}
+
+body {
+    margin: auto;
+    width: 100%; 
+    background-color: #2d2d2d;  
+    font-family: 'chestnut';
+}                      
+.button_s {
+    color: #121212;
+    font-weight: bold;
+    border-radius: 10px;
+    text-align:center;
+    margin-top: 20px;
+    background-color: #e0b015;
+    border-color: #e0b015;
+    font-size: 20px;
+
+}
+img {
+    margin-bottom: -50px;
+    margin-top: -10px;
+}
+
+.wrapper {
+    max-width: 400px;
+    text-align:center;
+    margin: 0 auto; 
+    padding-top: 70px; 
+}
+
+.wrapper ul {
+    list-style: none;
+}
+
+.wrapper ul li {
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    margin: 0 auto;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+    float: left;
+    transition: all 0.5s ease;
+}
+
+.wrapper ul li .fa {
+    color: #D8E2DC;
+    margin-top: 20px;
+    transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover.facebook {
+    border: 5px solid #e0b015;
+    box-shadow: 0 0 15px #e0b015;
+    transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-facebook {
+    color: #e0b015;
+    text-shadow: 0 0 15px #e0b015;
+    transition: all 0.5s ease;
+}
+
+/*twitter*/
+.wrapper ul li:hover.twitter {
+    border: 5px solid #e0b015;
+    box-shadow: 0 0 15px #e0b015;
+    transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-twitter {
+    color: #e0b015;
+    text-shadow: 0 0 15px #e0b015;
+    transition: all 0.5s ease;
+}
+
+/* instagram */
+.wrapper ul li:hover.instagram {
+    border: 5px solid #e0b015;
+    box-shadow: 0 0 15px #e0b015;
+    transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-instagram {
+    color: #e0b015;
+    text-shadow: 0 0 15px #e0b015;
+    transition: all 0.5s ease;
+}
+
+/* google */
+.wrapper ul li:hover.google {
+    border: 5px solid #e0b015;
+    box-shadow: 0 0 15px #e0b015;
+    transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-google {
+    color: #e0b015;
+    text-shadow: 0 0 15px #e0b015;
+    transition: all 0.5s ease;
+}
+
+/* whatsapp */
+.wrapper ul li:hover.whatsapp {
+    border: 5px solid #e0b015;
+    box-shadow: 0 0 15px #e0b015;
+    transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-whatsapp {
+    color: #e0b015;
+    text-shadow: 0 0 15px #e0b015;
+    transition: all 0.5s ease;
+}
